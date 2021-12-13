@@ -8,9 +8,3 @@ def test_check_get_price():
 
     assert res == 60
 
-def test_check_get_price2():
-    product = Product(dict(name="Картошка", weight=2, priceForWeight=40))
-
-    res = product.getPrice()
-
-    assert res == 70
